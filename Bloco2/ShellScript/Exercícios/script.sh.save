@@ -1,0 +1,6 @@
+#!/bin/bashread -p "Digite a sua idade: " idade
+read -p "Digite seu nome: " nome
+
+echo "Seu nome é: " $nome
+echo "Sua idade é: " $idade
+
