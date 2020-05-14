@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "-=-=-=-=-=-= EXERCÍCIO 7 =-=-=-=-=-=-"
+echo ""
+read "Digite o nome do arquivo e/ou diretório: " var1
+
+if 
+
+
+
+echo "ls -l var1"
+
