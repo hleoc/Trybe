@@ -1,7 +1,7 @@
 //7- Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) 
 //em conceitos de A a F.
 
-let nota = 40;
+let nota = 90;
 
 
 if (nota >= 90 && nota < 100) {

@@ -1,7 +1,9 @@
-let n1 = 2, n2 = 5;
+let n1 = 7, n2 = 5;
 
 if(n1 > n2){
-    console.log(n1);   
+    console.log('O maior número é o: ' + n1);   
+} else if (n1 === n2) {
+    console.log('Os números são iguais!');
 } else {
-    console.log(n2);
+    console.log('O maior número é o: ' + n2);
 }

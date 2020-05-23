@@ -4,9 +4,9 @@
 let n1 = 9, n2 = 1, n3 = 15;
 
 if (n1 > n2 && n1 > n3){
-    console.log("O maior número é o:",n1);
+    console.log("O maior número é o primeiro: " + n1);
 } else if (n2 > n1 && n2 > n3){
-    console.log("O maior número é o:",n2);
+    console.log("O maior número é o segundo: " + n2);
 } else {
-    console.log("O maior número é o:",n3)
+    console.log("O maior número é o terceiro: " + n3)
 }
