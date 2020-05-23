@@ -1,6 +1,6 @@
 //6- Escreva um programa que receba o nome de uma peça de xadrez e retorne os
 // movimentos que ela faz.
-let pecaDeXadrez = "TORRE";
+let pecaDeXadrez = "RAINHA";
 let movimento = pecaDeXadrez.toLowerCase();
 //String.toLowerCase();
 
@@ -24,7 +24,7 @@ switch (movimento){
         console.log("O rei pode mover-se em todas as direções (horizontal, vertical e diagonal) somente uma casa de cada vez.");
         break;
     default:
-        console.log("bishop -> diagonals")
+        console.log("ERRO!!!")
 
 }
 

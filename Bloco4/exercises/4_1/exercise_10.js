@@ -8,6 +8,6 @@ if (custoProduto >= 0 && valorVenda >= 0) {
     lucro = ((valorVenda) - (custoProduto + custoProduto * 0.20)) * 1000;
     console.log(lucro);
 } else {
-    console.log("Erro! O valor de entrada igual a zero");
+    console.log("Erro! Digite um valor diferente de zero para o custo do produto ou valor de venda do produto.");
 }
 

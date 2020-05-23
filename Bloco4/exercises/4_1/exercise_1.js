@@ -1,7 +1,7 @@
-let n1 = 3, n2 = 7;
+let a = 13, b = 5;
 
-console.log(n1 + n2);
-console.log(n1 - n2);
-console.log(n1 * n2);
-console.log(n1 / n2);
-console.log(n1 % n2);
+console.log('Resultado da soma: ' + (a + b));
+console.log('Resultado da subtração: ' + (a - b));
+console.log('Resultado da multiplicação: '+ (a * b));
+console.log('Resultado da divisão: ' + (a / b));
+console.log('Resultado do módulo: ' + (a % b));
