@@ -124,18 +124,50 @@
 //console.log(numbers);
 
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27], aux;
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27], aux;
+//
+//for(let x = 1; x < numbers.length; x+=1){
+//    for(let y = 0; y < x; y+=1){
+//        if(numbers[y] > numbers[x]){
+//            aux = numbers[y];
+//            numbers[y] = numbers[x];
+//            numbers[x] = aux;
+//        }
+//    }
+//}
+//console.log(numbers);
 
-for(let x = 1; x < numbers.length; x+=1){
-    for(let y = 0; y < x; y+=1){
-        if(numbers[y] > numbers[x]){
-            aux = numbers[y];
-            numbers[y] = numbers[x];
-            numbers[x] = aux;
-        }
-    }
+
+//let n = 5, espaco = '', aste = '*', resul = '';
+//
+//for(let x = 1; x <= n; x+=1){
+//    for(let y = 0; y < n-x; y+=1){
+//        espaco+=' ';
+//    }
+//
+//    for(let z = 0; z < x; z+=1){
+//        resul+=aste;
+//    }
+//    console.log(espaco + resul);
+//    espaco = '';
+//    resul = '';
+//
+//}
+
+let n = 5, aste = '*', resul = '';
+
+for (let x = 1; x <= n; x+=2) {
+    resul+=aste;
+    console.log(resul);
 }
-console.log(numbers);
+
+
+
+
+
+
+
+
 
 
 
