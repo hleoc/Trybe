@@ -154,13 +154,41 @@
 //
 //}
 
-let n = 5, aste = '*', resul = '';
+//FUNÇÕES
+//let n = 5, aste = '*', resul = '';
+//
+//for (let x = 1; x <= n; x+=2) {
+//    resul+=aste;
+//    console.log(resul);
+//}
 
-for (let x = 1; x <= n; x+=2) {
-    resul+=aste;
-    console.log(resul);
-}
-
+//let statusCarro = 'desligado';
+//let aceleracao = 0;
+//let rotacaoVolante = 0;
+//
+//function ligarDesligar(){
+//    if (statusCarro === 'desligado'){
+//        statusCarro = 'ligado';
+//    } else {
+//        statusCarro = 'desligado';
+//    }
+//    return statusCarro;
+//}
+//
+//function acelerar(incremento){
+//    aceleracao+=incremento;
+//    return 'Acelerando a ' + aceleracao + 'm/s²';
+//}
+//
+//function frear(decremento){
+//    aceleracao-=decremento;
+//    return 'Desacelerando para ' + aceleracao + 'm/s²';
+//}
+//
+//function girarVolante(rotacao){
+//    rotacaoVolante = rotacao;
+//    return 'Volante virando a' + rotacaoVolante +'º'
+//}
 
 
 
